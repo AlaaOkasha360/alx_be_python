@@ -6,6 +6,6 @@ def perform_operation(num1, num2, operation):
     if operation == "multiply":
         return num1*num2
     if operation == "divide":
-        if(num2 == 0):
+        if num2 == 0:
             return "Undefined"
         return num1 / num2
